@@ -1,0 +1,6 @@
+name = "cfst-file"
+main = "filehub-worker.js"  # 替换为你的主脚本文件名
+compatibility_date = "2026-10-23"
+
+# 关键：告诉 Cloudflare 不包含静态资源目录
+assets = { directory = "." }
